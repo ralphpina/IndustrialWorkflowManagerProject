@@ -5,3 +5,128 @@
 	margin: 0 auto;
 	width: 320px;
 }
+
+/*Header of the app*/
+#header div {
+	display:inline-block;
+}
+
+#header {
+	background-color: #78D3FA;
+	overflow: auto;
+	
+}
+
+/*Title: Industrial Worklight Manager*/
+#title {
+	color: blue;
+	float: left;
+	padding: 10px 0px 10px 5px;
+}
+
+/*menu button in the header*/
+#menu {
+	background-color: #78FAF8;
+	border: 2px solid black;
+	border-right: 1px solid black;
+	float: right;
+	padding: 10px 5px 10px 5px;
+	
+}
+
+/*submit button in header*/
+#submit {
+	background-color: #78FA9F;
+	border:2px solid black;
+	border-left: 1px solid black;
+	position: relative;
+	float: right;
+	padding: 10px 5px 10px 5px;
+	
+}
+
+/*header for the list of items to be inspected*/
+#listHeaders div, #item div  {
+	display: inline-block;
+	
+}
+
+#listHeaders {
+	border: 1px solid black;
+	background-color: #E4EDED;
+}
+
+/*name header of item being inspected*/
+#name {
+	width: 80px;
+	border-right: 1px solid black;
+	text-align: center;
+}
+
+/*alarm header marking */
+#alarm {
+	width: 45px;
+	border-right: 1px solid black;
+}
+
+/*notes header in list*/
+#notes {
+	width: 140px;
+	border-right: 1px solid black;
+	text-align: center;
+}
+
+/*header finished marking whether this item has been finished*/
+#finished {
+	
+}
+
+#items {
+
+}
+
+#item {
+	border-bottom: 1px solid black;
+	padding: 10px 0px 10px 0px;
+}
+
+/*name for each individual list item */
+#itemName {
+	width: 80px;
+	border-right: 1px solid black;
+}
+
+/*alarm for each individual list item */
+#itemAlarm {
+	border-right: 1px solid black;
+	width: 45px;
+	text-align: center;
+	
+}
+
+/*note for each individual list item */
+#itemNote {
+	border-right: 1px solid black;
+	width: 140px;
+}
+
+/*finish flag for each individual list item */
+#itemFinished {
+	text-align: center;
+	
+}
+
+/*marks the alarm as on*/
+#alarmOn {
+	background-color: red;
+}
+
+/*marks item in progress*/
+#progress {
+	background-color: yellow;
+}
+
+/*marks item as finishied*/
+#isFinished {
+	background-color: green;
+}

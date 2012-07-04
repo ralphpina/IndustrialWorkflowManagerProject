@@ -10,7 +10,41 @@
 		<link rel="stylesheet" href="css/IndustrialWorkflowManager.css" />
 	</head>
 	<body onload="WL.Client.init({})" id="content" style="display: none">
-		IndustrialWorkflowManager
+		<div id="header">
+			<div id="title">Industrial Workflow Manager</div>
+			<div id="submit">Submit</div>
+			<div id="menu">Menu</div>
+		</div>
+		<div id="listHeaders">
+			<div id="name">PDU</div>
+			<div id="alarm">Alarm</div>
+			<div id="notes">Notes</div>
+			<div id="finished">Done</div>
+		</div>
+		<div id="items">
+			<!-- TODO items should be added here programmatically -->
+			<!-- This is just test data for layout purposes -->
+			<div id="item">
+				<div id="itemName">PDU30A</div>
+				<div id="itemAlarm"><span id="alarmOn"></span></div>
+				<div id="itemNote">This is a test note</div>
+				<div id="itemFinished"></div>
+			</div>
+			<div id="item">
+				<div id="itemName">PDU30B</div>
+				<div id="itemAlarm"></div>
+				<div id="itemNote">This is a test note</div>
+				<div id="itemFinished"><span id="progress"></span></div>
+			</div>
+			<div id="item">
+				<div id="itemName">PDU30C</div>
+				<div id="itemAlarm"></span></div>
+				<div id="itemNote">This is a test note</div>
+				<div id="itemFinished"><span id="isFinished"></span></div>
+			</div>
+			
+			
+		</div>
 		<!-- application UI goes here -->
 
 		<script src="js/IndustrialWorkflowManager.js"></script>
